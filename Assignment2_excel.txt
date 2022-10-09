@@ -1,0 +1,37 @@
+1. What does the dollar($) sign do?
+
+ans - $ sign is used for absolute cell refrencing in excel.
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+
+ans - To change the reference from relative to absolute, you need to add the dollar sign before the column notation and the row number.
+
+3. Explain the order of operations in excel?
+
+ans - Excel's order of operation follows the acronym PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction)
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+
+ans - 1.SUM Function - Syntax = “=SUM” (number1, number2, etc.)
+2.TEXT Function - Syntax = “=TEXT” (value, format_text)
+3.VLOOKUP Function
+4.AVERAGE Function
+4.CONCATENATE Function
+
+5. When would you use the subtotal function?
+
+ans - SUBTOTAL Function in Excel allows users to create groups and then perform various other Excel functions such as SUM, COUNT, AVERAGE, PRODUCT, MAX etc...
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+
+ans - Syntax - =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+where :
+
+Lookup_value – Lookup_value specifies the value that we want to look up in the first column of a table.
+Table_array – The table array is the data array that is to be searched. The VLOOKUP function searches in the left-most column of this array.
+Col_index_num – This is an integer, specifying the column number of the supplied table_array, that you want to return a value from.
+Range_lookup – This defines what this function should return in the event that it does not find an exact match to the lookup_value. The argument can be set to TRUE or FALSE, which means:
+                                 TRUE – Approximate match, that is, if an exact match is not found, use the closest match below the lookup_value.
+                                 FALSE – Exact match, that is, if an exact match not found, then it will return an error.
+
