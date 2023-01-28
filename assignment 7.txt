@@ -1,0 +1,54 @@
+1. Using Insert Function, give examples of any function available in the different dropdowns present in the function library. For example AutoSum, Recently Used, Text, Date & Time, etc.
+
+Ans - In our example below, we want to find a function that will count the total number of items ordered. We want to count the cells in the Item column, which uses text. We cannot use the 
+basic COUNT function because it will only count cells with numerical information. Instead, we will need to find a function that counts the total number of cells within a cell range.
+
+a) Select the cell that will contain the function.
+b) Click the Formulas tab on the Ribbon, then select the Insert Function command.
+c) The Insert Function dialog box will appear.
+d) Type a few keywords describing the calculation you want the function to perform, then click Go. 
+e) Review the results to find the desired function, then click OK.
+f) The Function Arguments dialog box will appear. Select the Value1: field, then enter or select the desired cells
+g) When you're satisfied, click OK.
+h) The function will be calculated, and the result will appear in the cell. 
+
+2.What are the different ways you can select columns and rows?
+
+Ans - there are following ways to select a row and a Columns - 
+
+1) Select the letter at the top to select the entire column. Or click on any cell in the column and then press Ctrl + Space.
+2) Select the row number to select the entire row.
+3) To select non-adjacent rows or columns, hold Ctrl and select the row or column numbers.
+
+3. What is AutoFit and why do we use it?
+
+Ans - Excel's AutoFit feature is designed to automatically resize cells in a worksheet to accommodate different sized data without having to manually change the column width and row height.
+      It is used when we don't know about the exact width of the column or the height of the row.
+
+4. How can you insert new rows and columns into the existing table?
+
+Ans - To insert a row, pick a cell or row that's not the header row, and right-click. To insert a column, pick any cell in the table and right-click. Point to Insert, and pick Table Rows 
+      Above to insert a new row, or Table Columns to the Left to insert a new column.
+
+5. How do you hide and unhide columns in excel?
+
+Ans - To hide a column in Excel:
+
+a) Select the column (or a cell in the column) you want to hide.
+b) On the Home tab, in the Cells group, click Format.
+c) In the Format submenu, click Hide & Unhide.
+d) Choose Hide Columns.
+
+To unhide a column in Excel:
+
+a) Select the columns (or cells in the columns) to the left and right of the hidden column.
+b) On the Home tab, in the Cells group, click Format.
+c) In the Format submenu, click Hide & Unhide.
+d) Choose Unhide Columns.
+
+6.Create an appropriate table within the worksheet and use different functions available in the AutoSum command.
+
+Ans - AVERAGE – This function returns the average (arithmetic mean) of a range of numbers.
+COUNT NUMBERS– This function counts the total number of cells with numbers.
+MAX – This function returns the largest number.
+MIN – This function returns the smallest value.
